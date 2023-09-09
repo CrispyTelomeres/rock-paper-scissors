@@ -3,10 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <div id="container">
+        <div id="score">
+            <div class="score-title">Player
+                <div id="player">0</div>
+            </div>
+            <div class="score-title">Computer
+                <div id="computer">0</div>
+            </div>
+        </div>
+        <div id="round-result">Round Result
+            <div id="result"></div>
+        </div>
+        <div id="winner"></div>
+        <div class="btn-options">
+            <button id="btn-rock">Rock</button>
+            <button id="btn-paper">Paper</button>
+            <button id="btn-scissor">Scissors</button>
+        </div>
+        <button id="btn-newgame">New Game</button>
+    </div>
 </body>
 </html>
